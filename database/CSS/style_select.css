@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color:greenyellow;
+}
+table.id_1{
+    background-color:gray;
+    text-align: center;
+    -webkit-animation:blink 4.0s ease-in-out infinite alternate;
+    -moz-animation:blink 4.0s ease-in-out infinite alternate;
+    animation:blink 4.0s ease-in-out infinite alternate;
+
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+    
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}

@@ -1,0 +1,59 @@
+p{
+    color:red;
+    
+}
+body{
+    text-align: center;
+    background-color:greenyellow;
+}
+
+p.id_1{
+    padding: 10px;
+    margin: 10px;
+    background-color:gray;
+    background-position-x: center center;
+    text-align: center;
+    -webkit-animation:blink 4.0s ease-in-out infinite alternate;
+    -moz-animation:blink 4.0s ease-in-out infinite alternate;
+    animation:blink 4.0s ease-in-out infinite alternate;
+
+}
+
+table.id_1{
+    text-align:center;
+    -webkit-animation:blink 4.0s ease-in-out infinite alternate;
+    -moz-animation:blink 4.0s ease-in-out infinite alternate;
+    animation:blink 4.0s ease-in-out infinite alternate;
+}
+
+p.id_2{
+    padding: 10px;
+    margin: 10px;
+    background-color:gray;
+    -webkit-animation:blink 4.0s ease-in-out infinite alternate;
+    -moz-animation:blink 4.0s ease-in-out infinite alternate;
+    animation:blink 4.0s ease-in-out infinite alternate;
+
+}
+
+input.id_3{
+    padding: 10px;
+    margin: 10px;
+    background-color:gray;
+    -webkit-animation:blink 4.0s ease-in-out infinite alternate;
+    -moz-animation:blink 4.0s ease-in-out infinite alternate;
+    animation:blink 4.0s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+    
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
